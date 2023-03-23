@@ -1,0 +1,248 @@
+.app {
+  text-align: center;
+  background-image: url('./main.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 100px;
+  height: 100vh;
+}
+
+.app h1 {
+  font-size: 55px;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.app p {
+  color: white;
+  font-size: 45px;
+}
+
+.timer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 60%;
+  max-width: 1300px;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.value {
+  color: white;
+  font-size: 110px;
+  margin-bottom: 20px;
+}
+
+.line {
+  color: white;
+  font-size: 100px;
+  font-weight: 600;
+  margin-top: -40px;
+}
+
+.unit {
+  color: white;
+  font-size: 40px;
+}
+
+@media screen and (max-width: 1613px) {
+  .app {
+    padding: 50px;
+  }
+
+  .app h1 {
+    font-size: 45px;
+    margin-bottom: 20px;
+  }
+
+  .app p {
+    color: white;
+    font-size: 35px;
+  }
+
+  .timer {
+    margin-top: 40px;
+    width: 50%;
+  }
+
+  .value {
+    color: rgb(255, 255, 255);
+    font-size: 80px;
+    margin-bottom: 20px;
+  }
+
+  .line {
+    color: white;
+    font-size: 75px;
+    font-weight: 600;
+    margin-top: -60px;
+  }
+
+  .unit {
+    color: white;
+    font-size: 30px;
+  }
+
+}
+
+@media screen and (max-width: 1170px) {
+  .app {
+    padding: 50px;
+  }
+
+  .app>h1 {
+    font-size: 35px;
+    margin-bottom: 10px;
+  }
+
+  .app>p {
+    color: white;
+    font-size: 25px;
+  }
+
+  .timer {
+    margin-top: 50px;
+    width: 50%;
+  }
+
+  .value {
+    color: rgb(255, 255, 255);
+    font-size: 60px;
+    margin-bottom: 15px;
+  }
+
+  .line {
+    color: white;
+    font-size: 55px;
+    font-weight: 600;
+    margin-top: -45px;
+  }
+
+  .unit {
+    color: white;
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width: 930px) {
+  .app {
+    padding: 50px;
+  }
+
+  .app>h1 {
+    font-size: 25px;
+    margin-bottom: 10px;
+  }
+
+  .app>p {
+    color: white;
+    font-size: 15px;
+  }
+
+  .timer {
+    margin-top: 90px;
+    width: 70%;
+  }
+
+  .value {
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    margin-bottom: 15px;
+  }
+
+  .line {
+    color: white;
+    font-size: 45px;
+    font-weight: 600;
+    margin-top: -45px;
+  }
+
+  .unit {
+    color: white;
+    font-size: 15px;
+  }
+}
+
+
+@media screen and (max-width: 930px){
+  .app {
+    padding: 50px;
+  }
+
+  .app>h1 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  .app>p {
+    color: white;
+    font-size: 15px;
+  }
+
+  .timer {
+    margin-top: 110px;
+    width: 70%;
+  }
+
+  .value {
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    margin-bottom: 15px;
+  }
+
+  .line {
+    color: white;
+    font-size: 35px;
+    font-weight: 600;
+    margin-top: -30px;
+  }
+
+  .unit {
+    color: white;
+    font-size: 15px;
+  }
+}
+
+
+
+@media screen and (max-width: 514px){
+  .app {
+    padding: 50px;
+  }
+
+  .app>h1 {
+    font-size: 15px;
+    margin-bottom: 10px;
+  }
+
+  .app>p {
+    color: white;
+    font-size: 10px;
+  }
+
+  .timer {
+    margin-top: 70px;
+    width: 100%;
+  }
+
+  .value {
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    margin-bottom: 15px;
+  }
+
+  .line {
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: -30px;
+  }
+
+  .unit {
+    color: white;
+    font-size: 10px;
+  }
+}
