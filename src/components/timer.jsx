@@ -5,7 +5,7 @@ import './timer.css'
 const Timer = () => {
 
   
-  const endDate = '25-03-2023 12:00'
+  const endDate = '22-04-2023 19:22'
 
   let Year = (`${endDate[6]}${endDate[7]}${endDate[8]}${endDate[9]}`)
   let Month = (`${endDate[3]}${endDate[4]}`)
